@@ -1,14 +1,13 @@
-# Task 5: Credit Card Fraud Detection
+# Task 4: Sales Prediction using Python
 
 ## Objective
-To detect fraudulent credit card transactions using machine learning
-classification techniques.
+To predict product sales based on advertising expenditure using
+machine learning regression techniques.
 
 ## Dataset
-- creditcard.csv
-- Target column: Class
-  - 0 → Legitimate transaction
-  - 1 → Fraudulent transaction
+- advertising.csv
+- Features: TV, Radio, Newspaper
+- Target: Sales
 
 ## Tools & Libraries
 - Python
@@ -16,14 +15,14 @@ classification techniques.
 - Scikit-learn
 
 ## Steps Performed
-1. Data loading and exploration
-2. Feature and target selection
-3. Train-test split with stratification
-4. Model training using Logistic Regression
-5. Model evaluation using accuracy, confusion matrix, and classification report
+1. Loaded and explored the dataset
+2. Selected relevant features
+3. Split data into training and testing sets
+4. Trained Linear Regression model
+5. Evaluated model using MSE and R² score
 
 ## Result
-The model successfully identifies fraudulent transactions.
+The model predicts sales with good accuracy.
 
 ## Internship
 CodeSoft Data Science Internship
